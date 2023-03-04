@@ -46,6 +46,7 @@ h1{
     color: white;
     border: none;
     width: 100px;
+    font-size: 1.2rem;
     margin-top: 10px;
 }
 .icon img{
@@ -57,4 +58,5 @@ h1{
 }
 .bar{
     margin: 20px 0px;
+    font-size: 1.2rem;
 }

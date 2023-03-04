@@ -1,0 +1,44 @@
+.safetycontainer{
+    display: flex;
+    flex-direction: column;
+}
+.rowcontainer{
+    display: flex;
+    flex-direction: row;
+    margin: 35px;
+}
+.row21 h1{
+    text-decoration: underline;
+}
+.row1{
+    width: 50vw;
+    height: 40vh;
+
+}
+
+.row1 img{
+    border-radius: 20px;
+    width: 80%;
+    height: 100%;
+}
+.row2{
+    width: 50vw;
+    height: 40vh;
+}
+.row2 img{
+    border-radius: 20px;
+    width: 80%;
+    height: 100%;
+}
+.container1{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.footer{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100vw;
+    text-align: center;
+}
