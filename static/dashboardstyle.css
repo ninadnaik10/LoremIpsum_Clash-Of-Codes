@@ -6,25 +6,31 @@
 .card{
     margin: 1.5em;
     /* height: 30vh; */
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
   }
 
   .card-img-top{
     width: 100%;
     height: 15rem;
   }
-body{
+.main-body{
     display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
 .sidebar{
     background-color: bisque;
-    position: relative;
+    position: sticky;
     display: flex;
     flex-direction: column;
     height: 100vh;
     width: 15vw;
     align-items: center;
     padding: 3em;
+    margin-right: 7vw;
 }
 
 .icon img{
