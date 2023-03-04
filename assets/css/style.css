@@ -148,13 +148,13 @@ svg {
 }
 
 .background {
-    background: rgba(33, 37, 41, 0.55) no-repeat center center;
+    background: rgba(118, 118, 118, 0.55) no-repeat center center;
     background-size: cover;
     background-blend-mode: darken;
     height: 90vh;
     position: relative;
     display: flex;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     /* top: -75px; */
     /* z-index: -1; */
     /* margin-bottom: 3rem; */
