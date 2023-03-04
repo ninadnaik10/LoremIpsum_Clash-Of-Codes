@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../static/prefstyle.css">
+    <link rel="stylesheet" href="static/prefstyle.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
-<body style="background-color: blue;">
-    <div class="container form-container">
+<body>
+    <div class="container">
         <div class="main">
             <div class="text">
                 <h1>Enter you preferences</h1>
              </div>
              <form action="/pref" method="post">
                 <div class="mb-3">
-                    <label for="name" class="form-label">Name</label>
+                    <label for="name" class="form-label">name</label>
                     <input type="text" class="form-control" id="name" name="name" >
                   </div>
                  <!-- <div class="mb-3">
@@ -24,7 +24,7 @@
                    <input type="text" class="form-control" id="source" name="source" >
                  </div> -->
                  <div class="mb-3">
-                   <label for="destination" class="form-label">Destination</label>
+                   <label for="destination" class="form-label">destination</label>
                    <input type="text" class="form-control" id="destination" name="destination" >
                  </div>
                  <div class="mb-3">
@@ -35,25 +35,24 @@
                     <label for="age" class="form-label">Age</label>
                     <input type="number" class="form-control" id="age" name="age">
                   </div>
-                  <label for="budget">Budget in INR</label>
+                  <label for="budget">budget</label>
 
                   <select name="budget" id="budget">
                     <option value="a" name="a" id="a">1000-2000</option>
                     <option value="b" name="b" id="b">2000-3000</option>
                     <option value="c"name="c" id="c">3000-5000</option>
-                  </select><br>
-                  <label for="gender">Select your gender:</label>
+                  </select>
+                  <label for="gender">select your gender:</label>
 
                   <select name="gender" id="gender">
-                    <option value="male" name="male" id="male">Male</option>
-                    <option value="female" name="female" id="female">Female</option>
-                    <option value="female" name="female" id="female">Non-binary</option>
+                    <option value="male" name="male" id="male">male</option>
+                    <option value="female" name="female" id="female">female</option>
                   </select>
-                  <label for="prefgender">Prefered gender:</label>
+                  <label for="prefgender">prefered gender:</label>
 
                   <select name="prefgender" id="prefgender">
-                    <option value="prefmale" name="prefmale" id="prefmale">Male</option>
-                    <option value="preffemale" name="preffemale" id="preffemale">Female</option>
+                    <option value="prefmale" name="prefmale" id="prefmale">male</option>
+                    <option value="preffemale" name="preffemale" id="preffemale">female</option>
                     <option value="any" name="any" id="any">Any</option>
                   </select>
                   <h5>Interest</h5>

@@ -45,8 +45,8 @@ a {
     /* font-weight: bold;
     display: flex;
     color: #fff; */
-    margin: 10px 5vw 2vh -25vw;
-    width: auto;
+    margin: 5px 5vw 2vh -25vw;
+    width: 225px;
     height: auto;
     cursor: pointer;
     font-family: 'Philosopher', sans-serif;
@@ -158,7 +158,7 @@ svg {
     /* top: -75px; */
     /* z-index: -1; */
     /* margin-bottom: 3rem; */
-    background-image: url('/static/1.jpg');
+    background-image: url('/assets/images/1.jpg');
 }
 
 .form-h{
@@ -350,7 +350,7 @@ svg {
     #navbar.is-fixed {
         /* when the user scrolls down, we hide the header right above the viewport */
         position: fixed;
-        top: -91px;
+        top: -86px;
         transition: transform 0.2s;
         background-color: rgba(255, 255, 255, 0.7);
         backdrop-filter: saturate(1.8) blur(20px);

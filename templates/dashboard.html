@@ -9,50 +9,87 @@
   <link rel="stylesheet" href="../static/dashboardstyle.css">
   <link rel="stylesheet" href="../static/style.css">
   <style>
-    h5{
-      margin-bottom: 1em;
+    .navbar{
+      position: relative;
+      top: 0;
     }
   </style>
 </head>
 <body>
-  <div class="main-body">
+  <!-- <nav id="navbar" class="navbar">
+    <input type="checkbox" id="check">
+    <label for="check">
+        <div class="burger" id="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </label>
+    
+    <label class="logo" onclick="location.href='../index'"><i class="fa fa-earth"></i> Travel
+</label>
+    <ul class="nav-list">
+        <li><a href="../templates/index.html">Home</a></li>
+        <li><a href="../templates/dashboard.html">dashboard</a></li>
+        <li><a href="signup.html">Signup</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+</nav> -->
+<div class="side">
   <div class="sidebar">
-    <h1>Dashboard</h1><br><br>
-    <div class="icon"><img src="../static/1.jpg" alt=""></div>
+    <div class="icon"><img src="../static/img8.jpeg" alt=""></div>
     <h3 class="username">Username</h3>
     <button class="signoutbtn">Sign Out</button>
+    <a href=""><div class="bar">Home</div></a>
+    <a href=""><div class="bar">Contact</div></a>
+    <a href=""><div class="bar">Preference</div></a>
+    <a href=""><div class="bar">List</div></a>
+    <a href=""><div class="bar">Chat</div></a>
+    <a href=""><div class="bar">safety</div></a>
+    <a href=""><div class="bar">list</div></a>
+    <a href=""><div class="bar">list</div></a>
   </div>
-  <div>
+</div>
+
   <div class="container text-center">
+    <div><bold><h1> Personal Dashboard</h1></bold></div>
     <div class="row">
       <div class="col"><div class="card"   >
-        <img src="../static/1.jpg" class="card-img-top" alt="...">
+        <img src="../static/img7.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-           
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h2 class="card-title">Preference</h2>
+           <p>Input your preferences here for travelling</p>
+          <a href="#" class="btn btn-primary">Enter</a>
         </div>
       </div></div>
       <div class="col"><div class="card" >
-        <img src="../static/1.jpg" class="card-img-top" alt="...">
+        <img src="../static/img2.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-           
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h2 class="card-title">List</h2>
+           <p>List of best companion with you</p>
+          <a href="#" class="btn btn-primary">view</a>
         </div>
       </div></div>
       <div class="col"><div class="card"   >
         <img src="../static/chat.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Chat with people</h5>
-           
+           <p>Chat with your companion</p>
           <a href="#" class="btn btn-primary">Chat</a>
         </div>
       </div></div>
     </div>
     <div class="row">
       <div class="col"><div class="card"   >
-        <img src="../static/1.jpg" class="card-img-top" alt="...">
+        <img src="../static/img3.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">safety</h5>
+           <p>Take care of your safety</p>
+          <a href="#" class="btn btn-primary">click</a>
+        </div>
+      </div></div>
+      <div class="col"><div class="card"   >
+        <img src="../static/img4.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
            
@@ -60,15 +97,7 @@
         </div>
       </div></div>
       <div class="col"><div class="card"   >
-        <img src="../static/1.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-           
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div></div>
-      <div class="col"><div class="card"   >
-        <img src="../static/1.jpg" class="card-img-top" alt="...">
+        <img src="../static/img6.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
            
@@ -76,7 +105,6 @@
         </div>
       </div></div>
     </div>
-  </div></div>
   </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
