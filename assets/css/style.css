@@ -248,7 +248,7 @@ svg {
 #testimonials {
     text-align: center;
     color: #000;
-    margin-top: 80px;
+    width: 100vw;
 }
 
 .carousel-item {
@@ -257,17 +257,21 @@ svg {
 .carousel-control-prev-icon,.carousel-control-next-icon{
     background-color: black;
 }
+.new{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .revimg{
-    width: 200px;
-    height: 200px;
-    position:absolute;
-    left:50%;
-    top: 0%;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
+    margin-top: 10px;
 }
 .revimg img{
     width: 100%;
     border-radius: 50%;
+    height: 100%;
 }
 .imgt {
     width: 13%;
