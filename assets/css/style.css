@@ -45,7 +45,7 @@ a {
     /* font-weight: bold;
     display: flex;
     color: #fff; */
-    margin: 5px 5vw 2vh -15vw;
+    margin: 5px 5vw 2vh -25vw;
     width: 225px;
     height: auto;
     cursor: pointer;
@@ -464,7 +464,7 @@ button {
 }
 
 footer {
-    background-color: #002E83
+    background-color: #217381
 }
 
 .home-desc {
