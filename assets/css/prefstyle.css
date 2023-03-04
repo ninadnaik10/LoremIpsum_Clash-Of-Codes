@@ -1,0 +1,24 @@
+.form{
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+    align-items: center;
+}
+.form1{
+    width: 50vw;
+    height: 80vh;
+}
+.main{
+    width: 50vw;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+#gender{
+    margin: 20px;
+}
+.form-check{
+    margin: 0px 10px;
+}
