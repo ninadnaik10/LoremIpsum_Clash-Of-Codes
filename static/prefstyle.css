@@ -1,3 +1,7 @@
+body{
+    background-size: cover;
+}
+
 .form{
     display: flex;
     justify-content: center;
@@ -21,4 +25,11 @@
 }
 .form-check{
     margin: 0px 10px;
+}
+
+.form-container{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 2em;
+    border-radius: 15px;
+    margin: 80px auto;
 }
