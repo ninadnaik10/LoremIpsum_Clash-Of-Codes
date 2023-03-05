@@ -80,7 +80,7 @@ svg {
 
 .catchline {
     display: flex;
-    font-size: 60px;
+    font-size: 5em;
     text-align: center;
     font-weight: 800;
     font-family: 'Righteous', cursive;
@@ -88,7 +88,7 @@ svg {
 
 .subtext {
     display: flex;
-    font-size: 25px;
+    font-size: 2em;
     text-align: center;
     font-weight: 600;
 }
@@ -148,7 +148,7 @@ svg {
 }
 
 .background {
-    background: rgba(118, 118, 118, 0.55) no-repeat center center;
+    background: rgba(118, 118, 118, 0.50) no-repeat center center;
     background-size: cover;
     background-blend-mode: darken;
     height: 90vh;
@@ -158,7 +158,7 @@ svg {
     /* top: -75px; */
     /* z-index: -1; */
     /* margin-bottom: 3rem; */
-    background-image: url('/assets/images/1.jpg');
+    background-image: url('../static/1.jpg');
 }
 
 .form-h{
